@@ -2,14 +2,16 @@
 const startyr = parseInt(prompt('Enter a starting year.'));
 const endyr = parseInt(prompt('Enter ending year.'));
 let i = startyr;
-while (i<=endyr) {
+do {
   if (i % 4 == 0 && i % 100 == 0 &&
       i % 400 != 0) {}
   else if (i % 4 == 0 || i % 100 == 0 &&
       i % 400 == 0) {
     let leapyear = i;
-    document.querySelector('#leapyr').innerHTML = leapyear;
+    document.querySelector('#leapyr').innerHTML = leapyear
+    console.log(leapyear);
   }
   else {}
   i++;
 }
+while (i <= endyr);
