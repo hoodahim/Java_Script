@@ -8,7 +8,7 @@ do {
   else if (i % 4 == 0 || i % 100 == 0 &&
       i % 400 == 0) {
     let leapyear = i;
-    document.querySelector('#leapyr').innerHTML = leapyear
+    document.write(leapyear + '<br />')
     console.log(leapyear);
   }
   else {}
