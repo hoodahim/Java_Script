@@ -1,8 +1,6 @@
 'use strict';
 const names = ['John', 'Paul', 'Jones'];
 
-console.log(names.length);
-console.log(names[1]);
 
 const name = document.getElementById('target');
 
