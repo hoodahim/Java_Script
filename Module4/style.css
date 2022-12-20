@@ -1,0 +1,38 @@
+body {
+    background-color: #553D67;
+}
+
+#form {
+    text-align: center;
+    background-color: #F64C72;
+    padding: 5px;
+    border: 5px solid #f0ddd5;
+}
+
+#keyword {
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: "Agency FB";
+}
+
+#search {
+    background-color: cadetblue;
+    font-family: Bahnschrift;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#section {
+    position : relative;
+    background-color: #F64C72;
+    padding: 3px;
+    text-align: center;
+    alignment: right;
+    font-family: Verdana , sans-serif ;
+    color: #f0ddd5;
+    font-weight: bold;
+    margin: auto;
+    width: 50%;
+    border-bottom: 3px solid #0088dd;
+    margin-top: 10px;
+}
